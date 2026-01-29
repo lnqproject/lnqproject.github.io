@@ -14,8 +14,8 @@
 
 ## Access
 
-- [Mediastinal Lymph Node SEG on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg) — NCI Imaging Data Commons portal
-- [CT Lymph Nodes on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=ct_lymph_nodes) — Related NIH lymph node dataset
+- [CT Lymph Nodes on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=ct_lymph_nodes) (grayscale) — Related NIH lymph node dataset
+- [Mediastinal Lymph Node SEG on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg) (segmentation) — NCI Imaging Data Commons portal
 
 ## Data contents
 
