@@ -1,4 +1,4 @@
-# Dataset: Mediastinal-Lymph-Node-SEG
+# Datasets
 
 ## Collection summary
 
