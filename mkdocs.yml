@@ -38,6 +38,8 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
@@ -50,6 +52,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Background: background.md
   - Challenge: challenge.md
   - Dataset: dataset.md
   - Resources: resources.md
