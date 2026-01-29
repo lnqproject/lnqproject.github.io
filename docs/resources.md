@@ -19,14 +19,6 @@
 
 ---
 
-## Citation
-
-Idris, T., Somarouthu, S., Jacene, H., LaCasce, A., Ziegler, E., Pieper, S., Khajavi, R., Dorent, R., Pujol, S., Kikinis, R., & Harris, G. (2024). *Mediastinal Lymph Node Quantification (LNQ): Segmentation of Heterogeneous CT Data* (Version 1) [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/QVAZ-JA09
-
-**DOI:** [10.7937/QVAZ-JA09](https://doi.org/10.7937/QVAZ-JA09)
-
----
-
 ## Funding
 
 This project was funded by Brigham and Women's Hospital through NIH grant **5R01CA235589** "Lymph Node Quantification System for Multisite Clinical Trials."
