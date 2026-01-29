@@ -35,31 +35,31 @@ Automated 3D segmentation of all enlarged lymph nodes promises to detect changes
 
 ### Why lymph node quantification is difficult
 
-**Low Contrast Boundaries**
+**Low contrast boundaries**
 Lymph nodes often share intensity profiles with surrounding soft tissue and have ill-defined borders, making them difficult to identify even for experienced radiologists.
 
-**Complex Morphology**
+**Complex morphology**
 Nodes can become confluent, forming larger matted structures with no characteristic shape. Their size varies from 5mm (normal) to several centimeters (diseased).
 
-**Annotation Scarcity**
+**Annotation scarcity**
 Full pixel-level ground truth annotations are extremely time-consuming to create, limiting the training data available for machine learning approaches.
 
-**Limited Current Practice**
+**Limited current practice**
 The mediastinum may contain ten or more lymph nodes, often with three or more enlarged greater than 1cm—yet standard measurements capture only a fraction of this information.
 
 ---
 
-## LNQ2023 MICCAI Challenge
+## LNQ2023 MICCAI challenge
 
 The LNQ2023 Challenge provided the **first medical benchmark** for evaluating weakly-supervised segmentation techniques for lymph node segmentation on a large clinical trial dataset.
 
-### Challenge Goals
+### Challenge goals
 
 1. Establish a benchmark for mediastinal lymph node identification and segmentation
 2. Facilitate development of automated methods for whole-body lymph node quantification
 3. Segment all lymph nodes **larger than 1 cm in diameter** in the mediastinum
 
-### Evaluation Metrics
+### Evaluation metrics
 
 - **Dice Similarity Coefficient (DSC)** — spatial overlap
 - **Average Symmetric Surface Distance (ASSD)** — boundary accuracy
@@ -78,7 +78,7 @@ The winning team achieved median ASSD lower than 3mm. Top three teams obtained m
 
 ## Dataset: Mediastinal-Lymph-Node-SEG
 
-### Collection Summary
+### Collection summary
 
 | Attribute | Value |
 |-----------|-------|
@@ -90,19 +90,19 @@ The winning team achieved median ASSD lower than 3mm. Top three teams obtained m
 | **License** | CC BY 4.0 |
 | **Last Updated** | August 2024 |
 
-### Data Contents
+### Data contents
 
 | Modality | Series | Total Size | Avg per Series |
 |----------|--------|------------|----------------|
 | CT | 513 | 34.96 GB | 68 MB |
 | SEG | 513 | 314 MB | 0.6 MB |
 
-**Annotation Types:**
+**Annotation types:**
 
 - **Fully Annotated:** 120 cases (all mediastinal lymph nodes segmented)
 - **Partially Annotated:** 393 cases (one or more lymph nodes segmented)
 
-### Data Source
+### Data source
 
 The dataset originates from the **Tumor Imaging Metrics Core (TIMC)**, a multi-institutional imaging core lab comprising:
 
@@ -112,7 +112,7 @@ The dataset originates from the **Tumor Imaging Metrics Core (TIMC)**, a multi-i
 
 TIMC provides multimodality imaging measurements to evaluate treatment response in patients enrolled in oncology clinical trials, having processed data from **over 1,400 clinical trials** conducted between 2007–2020.
 
-### Patient Population
+### Patient population
 
 All scans were captured at baseline timepoints during clinical trials. The top six primary cancers (60% of patients):
 
@@ -129,29 +129,29 @@ Additional cancer types (40% of patients): thyroid, adenocarcinoma, endometrial 
 
 ## Methodology
 
-### Annotation Process
+### Annotation process
 
-1. **Clinical Trial Localization**
+1. **Clinical trial localization**
    Initial lymph node localization performed during clinical trial reads by TIMC staff. Each case reviewed by US board-certified radiologists.
 
-2. **3D Slicer Segmentation**
+2. **3D Slicer segmentation**
    CT scans and bidimensional measurements loaded into 3D Slicer (v4.11). Segment Editor module used for manual delineation at native CT resolution.
 
-3. **Freehand Boundary Drawing**
+3. **Freehand boundary drawing**
    Draw tool used to create freehand boundaries on axial cross-sections while referencing sagittal and coronal planes. Large vessels, artifacts, and non-nodal components excluded from lesion boundaries.
 
-4. **De-identification & Quality Review**
+4. **De-identification & quality review**
    Data fully de-identified per MGB IRB approval (2020P000211 and 2020P003754). All header data manually reviewed; image series checked for quality and de-identification integrity.
 
-### Annotator Qualifications
+### Annotator qualifications
 
 All annotators were trained radiologists or radiology domain experts with **over 10 years of experience**.
 
 ---
 
-## Resources & Access
+## Resources & access
 
-### Data Portals
+### Data portals
 
 | Resource | Description | Link |
 |----------|-------------|------|
@@ -159,7 +159,7 @@ All annotators were trained radiologists or radiology domain experts with **over
 | **IDC Portal** | Cloud-based access with BigQuery | [portal.imaging.datacommons.cancer.gov](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg) |
 | **Zenodo** | Archived challenge data | [doi.org/10.5281/zenodo.7844666](https://doi.org/10.5281/zenodo.7844666) |
 
-### Challenge & Publications
+### Challenge & publications
 
 | Resource | Link |
 |----------|------|
