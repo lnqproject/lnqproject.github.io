@@ -12,6 +12,11 @@
 | **License** | CC BY 4.0 |
 | **Last updated** | August 2024 |
 
+## Access
+
+- [Mediastinal Lymph Node SEG on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg) — Cloud-based access with BigQuery
+- [CT Lymph Nodes on IDC](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=ct_lymph_nodes) — Related NIH lymph node dataset
+
 ## Data contents
 
 | Modality | Series | Total Size | Avg per Series |
