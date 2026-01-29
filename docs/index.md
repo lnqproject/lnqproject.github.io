@@ -10,7 +10,7 @@ Our goal is to enable automated 3D segmentation that can detect disease changes 
 
 ---
 
-## What we offer
+## Resources
 
 - **[Background](background.md)** — Why lymph node quantification matters and what makes it difficult.
 
