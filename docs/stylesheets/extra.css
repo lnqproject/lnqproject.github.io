@@ -1,4 +1,4 @@
-/* Hide GitHub repo link in header */
-.md-header__source {
+/* Hide GitHub stars/forks in header, keep repo name */
+.md-source__facts {
   display: none;
 }
