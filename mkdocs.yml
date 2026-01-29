@@ -2,6 +2,9 @@ site_name: LNQ Project
 site_url: https://lnqproject.org
 site_description: LNQ - Medical Technology
 
+repo_url: https://github.com/lnqproject/lnqproject.github.io
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   palette:
@@ -28,6 +31,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - content.action.edit
 
 plugins:
   - search
