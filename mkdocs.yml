@@ -2,9 +2,6 @@ site_name: LNQ Project
 site_url: https://lnqproject.org
 site_description: LNQ - Medical Technology
 
-repo_url: https://github.com/lnqproject/lnqproject.github.io
-repo_name: lnqproject/lnqproject.github.io
-
 theme:
   name: material
   palette:
