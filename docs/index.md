@@ -24,6 +24,21 @@ Lymph node status is one of the most powerful predictors of cancer outcomes. For
 
 Automated 3D segmentation of all enlarged lymph nodes promises to detect changes to disease earlier, reduce variability between different radiologists, and provide a more complete picture of disease status. As these tools become validated and widely deployed, they could help standardize care quality across hospitals and enable earlier detection of treatment response or progression—when clinical intervention can still make a difference.
 
+### Why lymph node quantification is difficult
+
+**Hard to see**
+On CT scans, lymph nodes often look very similar to surrounding tissue, with blurry edges that make them difficult to spot—even for experienced radiologists.
+
+**Irregular shapes**
+Diseased lymph nodes don't follow a predictable form. They can merge together into larger masses, and range from 5mm (normal) to several centimeters (diseased).
+
+**Limited training data**
+Teaching computers to find lymph nodes requires manually labeled examples, but creating these pixel-by-pixel annotations is extremely time-consuming—limiting the data available for machine learning.
+
+**Incomplete measurements**
+The chest alone may contain ten or more lymph nodes, often with several enlarged beyond 1cm. Yet current clinical practice measures only a few, missing the bigger picture.
+
+
 | Quick Facts | |
 |-------------|---|
 | **Challenge** | MICCAI 2023 |
@@ -33,21 +48,6 @@ Automated 3D segmentation of all enlarged lymph nodes promises to detect changes
 
 ---
 
-## The problem
-
-### Why lymph node quantification is difficult
-
-**Low contrast boundaries**
-Lymph nodes often share intensity profiles with surrounding soft tissue and have ill-defined borders, making them difficult to identify even for experienced radiologists.
-
-**Complex morphology**
-Nodes can become confluent, forming larger matted structures with no characteristic shape. Their size varies from 5mm (normal) to several centimeters (diseased).
-
-**Annotation scarcity**
-Full pixel-level ground truth annotations are extremely time-consuming to create, limiting the training data available for machine learning approaches.
-
-**Limited current practice**
-The mediastinum may contain ten or more lymph nodes, often with three or more enlarged greater than 1cm—yet standard measurements capture only a fraction of this information.
 
 ---
 
