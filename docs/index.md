@@ -14,7 +14,7 @@ Our goal is to enable automated 3D segmentation that can detect disease changes 
 
 - **[Background](background.md)** — Why lymph node quantification matters and what makes it difficult.
 
-- **[Dataset](dataset.md)** — 513 CT scans with lymph node segmentations from clinical trials, freely available under CC BY 4.0.
+- **[Datasets](datasets.md)** — 513 CT scans with lymph node segmentations from clinical trials, freely available under CC BY 4.0.
 
 - **[Challenge](challenge.md)** — The LNQ2023 MICCAI Challenge—the first benchmark for weakly-supervised lymph node segmentation.
 

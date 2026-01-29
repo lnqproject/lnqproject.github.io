@@ -54,7 +54,7 @@ nav:
   - Home: index.md
   - Background: background.md
   - Challenge: challenge.md
-  - Dataset: dataset.md
+  - Datasets: datasets.md
   - Resources: resources.md
 
 extra:
