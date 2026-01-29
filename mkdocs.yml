@@ -57,6 +57,9 @@ nav:
   - Datasets: datasets.md
   - Resources: resources.md
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social: []
   # Add social links like:
