@@ -48,9 +48,6 @@ The chest alone may contain ten or more lymph nodes, often with several enlarged
 
 ---
 
-
----
-
 ## LNQ2023 MICCAI challenge
 
 The LNQ2023 Challenge provided the **first medical benchmark** for evaluating weakly-supervised segmentation techniques for lymph node segmentation on a large clinical trial dataset.
