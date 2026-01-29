@@ -1,0 +1,60 @@
+site_name: LNQ Project
+site_url: https://lnqproject.org
+site_description: LNQ - Medical Technology
+
+repo_url: https://github.com/lnqproject/lnqproject.github.io
+repo_name: lnqproject/lnqproject.github.io
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+
+extra:
+  social: []
+  # Add social links like:
+  # - icon: fontawesome/brands/github
+  #   link: https://github.com/lnqproject
+
+copyright: Copyright &copy; 2025 LNQ Project
