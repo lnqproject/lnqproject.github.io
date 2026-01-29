@@ -26,4 +26,4 @@ Our goal is to enable automated 3D segmentation that can detect disease changes 
 
 Idris, T., Somarouthu, S., Jacene, H., LaCasce, A., Ziegler, E., Pieper, S., Khajavi, R., Dorent, R., Pujol, S., Kikinis, R., & Harris, G. (2024). *Mediastinal Lymph Node Quantification (LNQ): Segmentation of Heterogeneous CT Data* (Version 1) [Data set]. The Cancer Imaging Archive. [https://doi.org/10.7937/QVAZ-JA09](https://doi.org/10.7937/QVAZ-JA09)
 
-Dorent, R., Idris, T., Somarouthu, B., Jacene, H., LaCasce, A., Pujol, S., Kikinis, R., Defined, T.B., & Harris, G. (2024). *LNQ 2023 Challenge: Mediastinal Lymph Node Quantification*. MELBA. [https://melba-journal.org/issues/lnq2023](https://www.melba-journal.org/issues/lnq2023.html)
+Pieper, S., Ziegler, E., Idris, T., Somarouthu, B., Dorent, R., Harris, G., & Kikinis, R. (Eds.). (2024). *MICCAI 2023 LNQ Challenge Special Issue*. MELBA. [https://doi.org/10.59275/j.melba.2024-c96g](https://doi.org/10.59275/j.melba.2024-c96g)
