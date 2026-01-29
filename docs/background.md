@@ -25,3 +25,12 @@ Teaching computers to find lymph nodes requires manually labeled examples, but c
 
 **Incomplete measurements**
 The chest alone may contain ten or more lymph nodes, often with several enlarged beyond 1cm. Yet current clinical practice measures only a few, missing the bigger picture.
+
+---
+
+## Further reading
+
+- [Lymph node overview](https://en.wikipedia.org/wiki/Lymph_node) — Wikipedia introduction to lymph node structure and function
+- [Lymph node anatomy](https://www.ncbi.nlm.nih.gov/books/NBK557717/) — StatPearls/NIH reference on structure, function, and clinical significance
+- [Lymph node imaging techniques](https://radiopaedia.org/articles/lymph-node-imaging) — Radiopaedia guide to imaging modalities and assessment criteria
+- [CT imaging of lymph nodes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1665307/) — PMC/NIH technical overview of multidetector CT evaluation
