@@ -1,14 +1,26 @@
 # Lymph Node Quantification (LNQ) Project
 
-**Advancing automated 3D segmentation of mediastinal lymph nodes in CT scans**
+**Advancing automated analysis of lymph nodes in imaging**
 
 ---
 
 ## Overview
 
-The Lymph Node Quantification (LNQ) project addresses a critical gap in cancer imaging: the need for accurate, automated 3D segmentation of mediastinal lymph nodes. Accurate lymph node size estimation is essential for cancer staging, therapeutic management, and monitoring treatment response in longitudinal scans.
+The Lymph Node Quantification (LNQ) project is addressing a critical gap in cancer imaging: the need for accurate, automated 3D segmentation and analysis of lymph nodes throughout the body. Accurate lymph node size estimation is essential for cancer staging, therapeutic management, and monitoring treatment response over a patient's treatment course.
 
-Current clinical practice relies on unidirectional or bidirectional measurements on just one or a few nodes, typically from a single axial slice. Full 3D segmentation promises better sensitivity to detect volumetric changes indicating response to therapy.
+Current clinical practice relies on simple length measurements on just one or a few nodes, typically from a single imaging slice. More advanced methods such as 3D segmentation and analysis promise better sensitivity that can, for example, show whether therapy is effective. 
+
+## Introduction: what are lymph nodes?
+
+Lymph nodes are small organs throughout the body that filter fluids and help fight infection. When cancer spreads, it often travels through the lymphatic system, causing nearby lymph nodes to enlarge. Measuring these nodes on CT scans is essential for staging cancer, planning treatment, and monitoring response to therapy—but current clinical practice relies on simple 2D measurements of just a few nodes, missing critical information about total disease burden.
+
+### Clinical impact
+
+Lymph node status is one of the most powerful predictors of cancer outcomes. For lung cancer, the five-year survival rate drops from 63% when the disease is localized to 35% when it has spread to regional lymph nodes. These measurements directly influence whether patients receive surgery, chemotherapy, radiation, or combinations thereof. With over 2 million Americans diagnosed with cancer each year, even modest improvements in measurement accuracy could affect treatment decisions for millions of patients.
+
+### Why automated quantification matters
+
+Automated 3D segmentation of all enlarged lymph nodes promises to detect changes to disease earlier, reduce variability between different radiologists, and provide a more complete picture of disease status. As these tools become validated and widely deployed, they could help standardize care quality across hospitals and enable earlier detection of treatment response or progression—when clinical intervention can still make a difference.
 
 | Quick Facts | |
 |-------------|---|
@@ -19,9 +31,9 @@ Current clinical practice relies on unidirectional or bidirectional measurements
 
 ---
 
-## The Problem
+## The problem
 
-### Why Lymph Node Quantification Is Difficult
+### Why lymph node quantification is difficult
 
 **Low Contrast Boundaries**
 Lymph nodes often share intensity profiles with surrounding soft tissue and have ill-defined borders, making them difficult to identify even for experienced radiologists.
