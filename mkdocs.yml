@@ -50,6 +50,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Challenge: challenge.md
+  - Dataset: dataset.md
+  - Resources: resources.md
 
 extra:
   social: []
