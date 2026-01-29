@@ -6,9 +6,11 @@
 
 ## Overview
 
-The Lymph Node Quantification (LNQ) project is addressing a critical gap in cancer imaging: the need for accurate, automated 3D segmentation and analysis of lymph nodes throughout the body. Accurate lymph node size estimation is essential for cancer staging, therapeutic management, and monitoring treatment response over a patient's treatment course.
+The Lymph Node Quantification (LNQ) Project is working to develop new computational techniques to measure and analyze lymph nodes throughout the body. Our work addresses a critical gap in current cancer imaging and treatment: accurate lymph node size estimation is essential for cancer staging, therapeutic management, and monitoring treatment response over a patient's treatment course.
 
-Current clinical practice relies on simple length measurements on just one or a few nodes, typically from a single imaging slice. More advanced methods such as 3D segmentation and analysis promise better sensitivity that can, for example, show whether therapy is effective. 
+Current clinical practice relies on simple length measurements on just one or a few nodes, typically from a single imaging slice. New 3D segmentation and analysis methods promise better sensitivity that can, for example, show whether a patient's medical therapy is effective. 
+
+In addition to its own work, the LNQ Project is actively promoting awareness of the importance of lymph node analysis in the medical imaging community. In particular, we have made CT scans and segmentation patient data available to the public and conducted a "Grand Challenge" competition between different research groups to analyze that data.
 
 ## Introduction: what are lymph nodes?
 
