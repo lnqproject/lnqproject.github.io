@@ -4,9 +4,9 @@
 
 | Resource | Description | Link |
 |----------|-------------|------|
-| **TCIA** | Primary collection with NBIA Data Retriever | [cancerimagingarchive.net](https://www.cancerimagingarchive.net/collection/mediastinal-lymph-node-seg/) |
 | **IDC** | CT Lymph Nodes collection (grayscale) | [portal.imaging.datacommons.cancer.gov](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=ct_lymph_nodes) |
 | **IDC** | Mediastinal Lymph Node SEG collection (segmentation) | [portal.imaging.datacommons.cancer.gov](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg) |
+| **TCIA** | Primary collection with NBIA Data Retriever | [cancerimagingarchive.net](https://www.cancerimagingarchive.net/collection/mediastinal-lymph-node-seg/) |
 | **Zenodo** | Archived challenge data | [doi.org/10.5281/zenodo.7844666](https://doi.org/10.5281/zenodo.7844666) |
 
 ## Related links
