@@ -17,6 +17,12 @@
 | MELBA Special Issue | [melba-journal.org/issues/lnq2023](https://www.melba-journal.org/issues/lnq2023.html) |
 | TIMC | [tumormetrics.org](https://www.tumormetrics.org/) |
 
+## Literature search
+
+This literature database is automatically collected by following the citations of a list of important papers in the field of quantitative lymph node imaging and analysis.
+
+[Browse the database](https://lite.datasette.io/?url=https://raw.githubusercontent.com/mhalle/LNQ-citations/master/citations.db&metadata=https://raw.githubusercontent.com/mhalle/s2cli/main/citetree-metadata.yaml#/citations/papers)
+
 ---
 
 --8<-- "docs/_includes/citations.md"
