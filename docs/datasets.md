@@ -14,6 +14,10 @@
 
 ## Overview
 
+<a href="https://storage.googleapis.com/sdp-lnq-site/site/index.html">
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/64f4f860-247d-43e8-9dc7-f96a7c9ecb76" />
+</a>
+
 [This page](https://storage.googleapis.com/sdp-lnq-site/site/index.html) provides a quick high-level overview of the LNQ2023 data in graphical form.  Each line represents a patient scan and hovering over a line provides a thumbnail view of the case.  Clicking the scan opens an interactive viewer hosted by the [NCI Imaging Data Commons](https://portal.imaging.datacommons.cancer.gov/).
 
 
