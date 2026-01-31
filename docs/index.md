@@ -1,5 +1,8 @@
 # Lymph Node Quantification (LNQ) Project
 
+<img width="400" alt="Abdominal and pelvic ymph nodes " src="https://github.com/user-attachments/assets/e8bd7cf2-0061-4f35-a739-f7b9d93205a8" />
+
+
 **Advancing automated analysis of lymph nodes in imaging**
 
 ---
