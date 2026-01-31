@@ -1,4 +1,4 @@
-# Datasets
+# LNW2023 Dataset
 
 ## Collection summary
 
@@ -11,6 +11,11 @@
 | **Total size** | 35.27 GB |
 | **License** | CC BY 4.0 |
 | **Last updated** | August 2024 |
+
+## Overview
+
+[This page](https://storage.googleapis.com/sdp-lnq-site/site/index.html) provides a quick high-level overview of the LNQ2023 data in graphical form.  Each line represents a patient scan and hovering over a line provides a thumbnail view of the case.  Clicking the scan opens an interactive viewer hosted by the [NCI Imaging Data Commons](https://portal.imaging.datacommons.cancer.gov/).
+
 
 ## Access
 
