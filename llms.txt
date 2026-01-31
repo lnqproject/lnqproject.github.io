@@ -1,0 +1,70 @@
+# LNQ Project - Lymph Node Quantification
+
+> Advancing automated analysis of lymph nodes in medical imaging
+
+## Overview
+
+The LNQ Project develops computational techniques to measure and analyze lymph nodes throughout the body. Accurate lymph node assessment is essential for cancer staging, treatment planning, and monitoring therapy response. Current clinical practice captures only a fraction of available information through simple 2D measurements.
+
+The project provides:
+- Public datasets of CT scans with lymph node segmentations
+- The LNQ2023 MICCAI Challenge benchmark for weakly-supervised segmentation
+- Research publications on automated lymph node quantification
+
+## Pages
+
+- [Home](https://lnqproject.org/): Project overview and quick links
+- [Background](https://lnqproject.org/background/): What lymph nodes are, clinical impact, why quantification is difficult
+- [Challenge](https://lnqproject.org/challenge/): LNQ2023 MICCAI challenge details, results, winning approaches
+- [Datasets](https://lnqproject.org/datasets/): Dataset specifications, access links, methodology
+- [Resources](https://lnqproject.org/resources/): Data portals, related links, funding information
+
+## Datasets
+
+### Mediastinal Lymph Node SEG
+- 513 patients, 35.27 GB total
+- 1,026 series (513 CT + 513 SEG)
+- 120 fully annotated cases, 393 partially annotated
+- License: CC BY 4.0
+- Access: [IDC Portal](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=mediastinal_lymph_node_seg)
+
+### CT Lymph Nodes (related dataset)
+- NIH lymph node dataset with grayscale CT images
+- Access: [IDC Portal](https://portal.imaging.datacommons.cancer.gov/explore/filters/?collection_id=ct_lymph_nodes)
+
+## LNQ2023 Challenge Results
+
+| Rank | Team | Dice Score | ASSD (mm) |
+|------|------|------------|-----------|
+| 1st | Skeleton Suns | 71.2% | 2.95 |
+| 2nd | IMR | 70.0% | 4.15 |
+| 3rd | CompAI | 69.0% | 5.05 |
+
+Challenge site: https://lnq2023.grand-challenge.org/
+
+## Citations
+
+Dataset citation:
+Idris, T., Somarouthu, S., Jacene, H., LaCasce, A., Ziegler, E., Pieper, S., Khajavi, R., Dorent, R., Pujol, S., Kikinis, R., & Harris, G. (2024). Mediastinal Lymph Node Quantification (LNQ): Segmentation of Heterogeneous CT Data (Version 1) [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/QVAZ-JA09
+
+Challenge paper citation:
+Pieper, S., Ziegler, E., Idris, T., Somarouthu, B., Dorent, R., Harris, G., & Kikinis, R. (Eds.). (2024). MICCAI 2023 LNQ Challenge Special Issue. MELBA. https://doi.org/10.59275/j.melba.2024-c96g
+
+## Key Links
+
+- Dataset DOI: https://doi.org/10.7937/QVAZ-JA09
+- MELBA Special Issue: https://www.melba-journal.org/issues/lnq2023.html
+- TCIA Collection: https://www.cancerimagingarchive.net/collection/mediastinal-lymph-node-seg/
+- GitHub (winning approach): https://github.com/MICAI-IMI-UzL/LNQ2023
+
+## Funding
+
+NIH grant 5R01CA235589 "Lymph Node Quantification System for Multisite Clinical Trials" through Brigham and Women's Hospital.
+
+## Data Source
+
+The dataset originates from the Tumor Imaging Metrics Core (TIMC), a multi-institutional imaging core lab comprising Massachusetts General Hospital, Dana Farber Cancer Institute, and Brigham and Women's Hospital.
+
+---
+
+Note: This llms.txt file should be updated whenever the site content changes to ensure LLMs have accurate information about the project.

@@ -1,0 +1,4 @@
+/* Hide GitHub stars/forks in header, keep repo name */
+.md-source__facts {
+  display: none;
+}
